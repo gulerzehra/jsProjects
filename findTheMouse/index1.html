@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fareyi Bul</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+        justify-content: center;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .box:hover {
+        background-color: lightblue;
+      }
+
+      #result {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" data-id="0">Kutu 1</div>
+      <div class="box" data-id="1">Kutu 2</div>
+      <div class="box" data-id="2">Kutu 3</div>
+    </div>
+
+    <div id="result">Tıkla ve fareyi bul!</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
